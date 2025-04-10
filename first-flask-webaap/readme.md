@@ -2,7 +2,7 @@
 
 ## Dev Steps
 
-docker run -it ubuntu bash</br> [//]: #If you wants to access the app outside the host machine then: docker run -it -p 5000:500 ubuntu bash
+docker run -it ubuntu bash</br> {::comment}If you wants to access the app outside the host machine then: docker run -it -p 5000:5000 ubuntu bash{:/comment}
 apt-get update</br>
 
 export DEBIAN_FRONTEND=noninteractive</br>
