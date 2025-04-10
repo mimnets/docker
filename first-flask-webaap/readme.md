@@ -56,3 +56,11 @@ login [If required]
 now pull and check if it's working
 
 docker run -p 5000:5000 mimnets/first-flask-webapp
+
+## Troubleshoot to pull docker image
+Removing containers from the Docker cache
+We can use the docker container prune command to clear the disk space used by containers. This command will remove all stopped containers from the system.
+
+We can omit the -f flag here and in subsequent examples to get a confirmation prompt before artifacts are removed.
+
+docker container prune -f
