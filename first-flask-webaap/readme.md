@@ -5,12 +5,12 @@
 docker run -it ubuntu bash
 apt-get update
 
-export DEBIAN_FRONTEND=noninteractive</bd>
-apt-get update</bd>
-apt-get install -y tzdata</bd>
-ln -fs /usr/share/zoneinfo/Asia/Dhaka /etc/localtime</bd>
-dpkg-reconfigure -f noninteractive tzdata</bd>
-apt-get install -y python3 python3-setuptools python3-dev build-essential python3-pip default-libmysqlclient-dev</bd>
+export DEBIAN_FRONTEND=noninteractive</br>
+apt-get update</br>
+apt-get install -y tzdata</br>
+ln -fs /usr/share/zoneinfo/Asia/Dhaka /etc/localtime</br>
+dpkg-reconfigure -f noninteractive tzdata</br>
+apt-get install -y python3 python3-setuptools python3-dev build-essential python3-pip default-libmysqlclient-dev</br>
 
 apt install python3-venv -y
 
