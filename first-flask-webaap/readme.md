@@ -26,16 +26,16 @@ pip install flask
 
 cat > /opt/app.py
 
-from flask import Flask
-app = Flask(__name__)
-@app.route("/")
-def main():
-    return "Welcome!"
-@app.route("/how are you")
-def hello():
-    return "I am good, how about you?"
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+from flask import Flask</br>
+app = Flask(__name__)</br>
+@app.route("/")</br>
+def main():</br>
+    return "Welcome!"</br>
+@app.route("/how are you")</br>
+def hello():</br>
+    return "I am good, how about you?"</br>
+if __name__ == "__main__":</br>
+    app.run(host="0.0.0.0", port=5000)</br>
 
 python3 /opt/app.py
 
