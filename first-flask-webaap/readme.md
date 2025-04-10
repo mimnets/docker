@@ -2,8 +2,8 @@
 
 ## Dev Steps
 
-docker run -it ubuntu bash
-apt-get update
+docker run -it ubuntu bash</br> [](If you wants to access the app outside the host machine then: docker run -it -p 5000:500 ubuntu bash)
+apt-get update</br>
 
 export DEBIAN_FRONTEND=noninteractive</br>
 apt-get update</br>
