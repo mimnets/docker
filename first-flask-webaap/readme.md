@@ -58,6 +58,7 @@ now pull and check if it's working
 docker run -p 5000:5000 mimnets/first-flask-webapp
 
 ## Troubleshoot to pull docker image
+### Error response from daemon: manifest for mimnets/first-flask-webapp:latest not found: manifest unknown: manifest unknown
 Removing containers from the Docker cache
 We can use the docker container prune command to clear the disk space used by containers. This command will remove all stopped containers from the system.
 
